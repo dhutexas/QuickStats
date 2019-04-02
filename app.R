@@ -297,7 +297,3 @@ server <- function(input, output) {
 }
 
 shinyApp(ui = ui, server = server)
-
-#setwd("C:/Users/Wyndows/Documents/Shiny")
-#library(rsconnect)
-deployApp()
